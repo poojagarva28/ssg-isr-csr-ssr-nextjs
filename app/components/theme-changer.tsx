@@ -6,6 +6,8 @@ import Theme from "./theme";
 const ThemeChanger = () => {
   const { setTheme } = useTheme();
 
+  console.log("checking commit undo");
+
   return (
     <div>
       <Theme />
